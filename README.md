@@ -4,9 +4,6 @@
   <a href="https://github.com/unisone/jobtrack-portfolio" target="_blank">
     <img src="https://img.shields.io/badge/Job_Hunt_Tracker-2.0-blueviolet?style=for-the-badge" alt="Project Badge">
   </a>
-  <a href="https://jobtrack-portfolio.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge&logo=vercel" alt="Live Demo">
-  </a>
 
   <br />
 
@@ -56,17 +53,6 @@
 - [Project Structure](#project-structure)
 - [Testing](#testing)
 - [License](#license)
-
----
-
----
-
-## 🚀 Live Demo
-
-[**Check out the live site here**](https://jobtrack-portfolio.vercel.app/)
-
-> [!TIP]
-> **Frictionless Demo**: No need to create an account. Use the **"Sign in as Guest"** button on the login page to jump straight into the dashboard.
 
 ---
 
