@@ -1,0 +1,24 @@
+name: Project Metrics
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Calculate Lines of Code
+        id: loc
+        run: |
+          # Use cloc if available or a simple find+wc
+          echo "lines=$(find . -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" | xargs wc -l | tail -n 1 | awk '{print $1}')" >> $GITHUB_OUTPUT
+
+      - name: Update Metrics in README
+        run: |
+          # This is a placeholder for where one could use a specialized action 
+          # to update a badge or gist. For now, we'll just log it.
+          echo "Lines of Code: ${{ steps.loc.outputs.lines }}"

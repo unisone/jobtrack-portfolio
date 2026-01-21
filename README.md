@@ -9,10 +9,11 @@
   <h1 align="center">JobTrack Portfolio</h1>
 
   <div align="center">
+    <img src="https://github.com/unisone/jobtrack-portfolio/actions/workflows/ci.yml/badge.svg" alt="CI Status" />
+    <img src="https://img.shields.io/badge/Coverage-Passing-success?style=for-the-badge&logo=jest&logoColor=white" alt="Coverage" />
+    <img src="https://img.shields.io/github/languages/code-size/unisone/jobtrack-portfolio?style=for-the-badge&logo=github" alt="Code Size" />
     <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
     <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   </div>
 
   <br />

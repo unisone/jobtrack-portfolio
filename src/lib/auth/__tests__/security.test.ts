@@ -98,7 +98,7 @@ describe('validateRedirectUrl', () => {
 describe('sanitizeAuthError', () => {
   it('returns generic message for unknown errors', () => {
     const result = sanitizeAuthError(new Error('Database connection failed'));
-    expect(result).toBe('An authentication error occurred. Please try again.');
+    expect(result).toBe('An error occurred. Please try again.');
   });
 
   it('sanitizes invalid credentials error', () => {
@@ -106,7 +106,7 @@ describe('sanitizeAuthError', () => {
       message: 'Invalid login credentials',
       status: 400,
     });
-    expect(result).toBe('Invalid email or password. Please check your credentials and try again.');
+    expect(result).toBe('Invalid email or password');
   });
 
   it('sanitizes email not confirmed error', () => {
@@ -119,11 +119,11 @@ describe('sanitizeAuthError', () => {
 
   it('handles non-Error objects', () => {
     const result = sanitizeAuthError('some string error');
-    expect(result).toBe('An authentication error occurred. Please try again.');
+    expect(result).toBe('An error occurred. Please try again.');
   });
 
   it('handles null/undefined', () => {
-    expect(sanitizeAuthError(null)).toBe('An authentication error occurred. Please try again.');
-    expect(sanitizeAuthError(undefined)).toBe('An authentication error occurred. Please try again.');
+    expect(sanitizeAuthError(null)).toBe('An error occurred. Please try again.');
+    expect(sanitizeAuthError(undefined)).toBe('An error occurred. Please try again.');
   });
 });
