@@ -35,11 +35,18 @@
 
 <br />
 
+<div align="center">
+  <img src="public/demo.webp" alt="High-Fidelity Cinematic Demo" width="100%" style="border-radius: 12px; border: 1px solid #333;" />
+</div>
+
+<br />
+
 ---
 
 ## Table of Contents
 
 - [What It Does](#what-it-does)
+- [The Showcase](#the-showcase)
 - [The Engineering Behind the UI](#the-engineering-behind-the-ui)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
@@ -91,6 +98,34 @@ Moving beyond basic opacity, our **Glassmorphism 2.0** engine acts as a dynamic 
 
 - **Layered Depth**: Backdrop filters, noise textures, and gradient borders simulate light refraction ([glass-notification-stack.tsx](src/components/landing/glass-notification-stack.tsx)).
 - **Performance**: Heavy composite layers are isolated ensuring 60fps+ rendering.
+
+---
+
+## The Showcase
+
+### 1. Magnetic Micro-Interactions
+
+The hero section features "magnetic" input fields and buttons using custom physics-based springs, creating a tactile connection with the cursor.
+
+<div align="center">
+  <img src="public/hero-feature.webp" alt="Magnetic Interactions" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
+
+### 2. Kinetic Bento Grid
+
+A responsive grid system where every card breathes. Features dynamic line-graph drawing and interactive ticker tapes for real-time data visualization.
+
+<div align="center">
+  <img src="public/bento-feature.webp" alt="Bento Grid Mechanics" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
+
+### 3. Orchestrated Entrance & Scroll
+
+Leveraging `Lenis` for smooth momentum, elements cascade into view with deterministic timing, creating a cinematic narrative flow.
+
+<div align="center">
+  <img src="public/scroll-feature.webp" alt="Scroll Dynamics" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
 
 ---
 
