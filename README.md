@@ -1,313 +1,129 @@
 <div align="center">
+  <br />
+    <a href="https://github.com/unisone/jobtrack-portfolio" target="_blank">
+      <img src="https://img.shields.io/badge/Project-Job_Track_Portfolio-black?style=for-the-badge&logo=appveyor" alt="Project Badge">
+    </a>
+  <br />
 
-# JobTrack
+  <h1 align="center">JobTrack Portfolio</h1>
 
-### Modern Job Application Tracker
+  <div align="center">
+    <img src="https://img.shields.io/badge/build-passing-success?style=for-the-badge&logo=github-actions" alt="Build Status" />
+    <img src="https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge&logo=semver" alt="Version" />
+    <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=opensourceinitiative" alt="License" />
+    <img src="https://img.shields.io/badge/deployment-vercel-black?style=for-the-badge&logo=vercel" alt="Deployment" />
+  </div>
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.4-black?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38B2AC?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)](https://supabase.com/)
+  <br />
+
+  <div align="center">
+    <img src="public/demo.webp" alt="High-Fidelity Cinematic Demo" width="100%" style="border-radius: 12px; border: 1px solid #333;" />
+  </div>
+</div>
 
 <br />
 
-A full-stack job application tracking platform with premium glassmorphic UI,<br />
-real-time sync, and comprehensive job search management.
+## The Engineering Behind the UI
+
+This project is not just a portfolio; it is an exploration of **Kinetic Architecture** and **Spatial Design**. Every interaction is engineered to feel weightless yet significant, bridging the gap between functional utility and artistic expression.
+
+### 🍱 Bento Grid Architecture
+The visual foundation is built on a strict **8pt fluid grid system**, implemented via a modular Bento Grid architecture.
+- **Composition**: Deconstructed into atomic cells (`bento-grid.tsx`, `bento-card.tsx`), allowing for infinite layout permutations while maintaining visual harmony.
+- **Responsiveness**: A math-based scaling logic ensures perfect alignment across all viewports, preserving the Golden Ratio constraints.
+
+### 🎭 Motion Orchestration
+We utilize **Scroll-Driven Storytelling** to guide the user's attention.
+- **Timeline Synchronization**: Leveraging `Lenis` for smooth momentum scrolling, we sync animation timelines to the scroll position, creating a deterministic yet fluid experience.
+- **Micro-Interactions**: Hover states are not binary; they are physics-based using `Framer Motion` springs, giving elements a tactile "magnetic" feel.
+
+### 💎 Glassmorphism 2.0
+Moving beyond basic opacity, our **Glassmorphism 2.0** engine acts as a dynamic optical layer.
+- **Layered Depth**: utilizing backdrop filters, noise textures, and gradient borders to simulate light refraction (`glass-notification-stack.tsx`).
+- **Performance**: Heavy composite layers are isolated to ensuring 60fps+ rendering even with complex blur calculations.
 
 <br />
 
-![JobTrack Preview](https://via.placeholder.com/900x500/0a0a0a/ffffff?text=JobTrack+Dashboard)
+## Technologies
+
+<div align="center">
+
+| Core Frameworks | Styling & Motion | State & Architecture |
+|:---:|:---:|:---:|
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) |
+| ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) | ![Zustand](https://img.shields.io/badge/Zustand-orange?style=for-the-badge&logo=react) |
 
 </div>
 
----
+### Core Pillars
+*   **⚡ Performance**: 60fps+ rendering through heavy composite layer isolation and hardware-accelerated transforms.
+*   **🎨 Design Systems**: A strict 8pt fluid grid system adhering to Golden Ratio constraints for visual harmony.
+*   **🤖 Agentic AI Integration**: Engineered with advanced AI agents for high-fidelity architectural review and code generation.
 
-## Table of Contents
+<br />
 
-<details>
-<summary>Click to expand</summary>
+## 🎭 The Showcase
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [Security](#security)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+### 1. Magnetic Micro-Interactions
+The hero section features "magnetic" input fields and buttons using custom physics-based springs, creating a tactile connection with the cursor.
+<div align="center">
+  <img src="public/hero-feature.webp" alt="Magnetic Interactions" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
 
-</details>
+### 2. Kinetic Bento Grid
+A responsive grid system where every card breathes. Features dynamic line-graph drawing and interactive ticker tapes for real-time market data visualization.
+<div align="center">
+  <img src="public/bento-feature.webp" alt="Bento Grid Mechanics" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
 
----
+### 3. Orchestrated Entrance & Scroll
+Leveraging `Lenis` for smooth momentum, elements cascade into view with deterministic timing, creating a cinematic narrative flow.
+<div align="center">
+  <img src="public/scroll-feature.webp" alt="Scroll Dynamics" width="100%" style="border-radius: 8px; border: 1px solid #333;" />
+</div>
 
-## Features
+<br />
 
-<table>
-<tr>
-<td width="50%">
+## 🚀 Features
 
-### Core Functionality
-
-- **Application Tracking** — Log and manage jobs with detailed status
-- **Pipeline Management** — Visual kanban from Applied → Offer
-- **Interview Scheduling** — Track rounds, dates, and follow-ups
-- **Analytics Dashboard** — Response rates and success metrics
-- **Resume Gallery** — Store multiple resume versions
-
-</td>
-<td width="50%">
-
-### Technical Highlights
-
-- **Real-time Sync** — Supabase-powered live data sync
-- **Offline-First** — Zustand persistence for offline use
-- **OAuth Authentication** — Google & GitHub sign-in
-- **Responsive Design** — Mobile-first with desktop optimization
-- **Accessibility** — WCAG 2.1 compliant, reduced motion support
-
-</td>
-</tr>
-</table>
-
-### Premium UI/UX
-
-| Feature | Description |
-|---------|-------------|
-| **Glassmorphism** | Modern dark theme with sophisticated blur effects |
-| **Micro-interactions** | Framer Motion-powered smooth animations |
-| **Magnetic Effects** | Cursor-following hover interactions |
-| **Parallax Scrolling** | Cinematic scroll-driven animations |
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Tech Stack
-
-<table>
-<tr>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" alt="Next.js" />
-<br>Next.js 15
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
-<br>React 19
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" />
-<br>TypeScript
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" />
-<br>Tailwind v4
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" />
-<br>Supabase
-</td>
-<td align="center" width="96">
-<img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
-<br>Vercel
-</td>
-</tr>
-</table>
-
-<details>
-<summary><strong>Full Stack Details</strong></summary>
-
-| Category | Technology |
-|----------|------------|
-| **Framework** | [Next.js 15](https://nextjs.org/) — App Router with React Server Components |
-| **Language** | [TypeScript 5.x](https://www.typescriptlang.org/) — Strict mode enabled |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) — Utility-first CSS |
-| **UI Components** | [shadcn/ui](https://ui.shadcn.com/) — New York theme variant |
-| **Animation** | [Framer Motion](https://www.framer.com/motion/) — Production-ready motion library |
-| **Database** | [Supabase](https://supabase.com/) — PostgreSQL with real-time subscriptions |
-| **State** | [Zustand](https://zustand-demo.pmnd.rs/) — Lightweight state with persistence |
-| **Forms** | [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/) — Type-safe validation |
-| **Testing** | [Playwright](https://playwright.dev/) — E2E testing |
-
-</details>
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- **Node.js** 18+
-- **npm**, yarn, or pnpm
-- **Supabase** account ([free tier available](https://supabase.com))
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd jobtrack-portfolio
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment**
-   ```bash
-   cp .env.example .env.local
-   ```
-
-   Add your Supabase credentials:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
-
-4. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open** [http://localhost:3000](http://localhost:3000)
-
-### Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Create production build |
-| `npm run lint` | Run ESLint |
-| `npm run test` | Run Playwright E2E tests |
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Project Structure
-
-```
-src/
-├── app/                    # Next.js App Router
-│   ├── (dashboard)/        # Protected dashboard routes
-│   ├── auth/               # Authentication pages
-│   └── resumes/            # Resume management
-├── components/
-│   ├── landing/            # Landing page components
-│   ├── jobs/               # Job management components
-│   ├── ui/                 # shadcn/ui components
-│   └── providers/          # Context providers
-├── hooks/                  # Custom React hooks
-├── lib/
-│   ├── supabase/           # Database services
-│   ├── auth/               # Authentication utilities
-│   └── store.ts            # Zustand state management
-└── types/                  # TypeScript definitions
-```
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Architecture
-
-<details>
-<summary><strong>Why Zustand over Redux?</strong></summary>
-
-- Simpler API with less boilerplate
-- Built-in persistence middleware for offline support
-- Better TypeScript inference out of the box
-- Smaller bundle size (~1KB vs ~10KB)
-
-</details>
-
-<details>
-<summary><strong>Why Supabase?</strong></summary>
-
-- PostgreSQL reliability with real-time subscriptions
-- Built-in authentication with OAuth providers
-- Row-level security for data protection
-- Generous free tier for personal projects
-
-</details>
-
-<details>
-<summary><strong>Why App Router?</strong></summary>
-
-- Server Components for better initial load performance
-- Streaming and Suspense support
-- Improved data fetching patterns
-- Built-in layouts and loading states
-
-</details>
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Security
-
-| Measure | Implementation |
-|---------|----------------|
-| **Input Validation** | Zod schemas at all system boundaries |
-| **XSS Prevention** | Sanitized outputs and CSP headers |
-| **Open Redirect Protection** | Validated redirect URLs |
-| **Authentication** | httpOnly cookies, CSRF protection |
-| **Database Security** | Row-Level Security (RLS) policies |
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Testing
-
-Comprehensive E2E test coverage:
-
-- ✅ Authentication flows (login, signup, OAuth)
-- ✅ Protected route redirects
-- ✅ Landing page interactions
-- ✅ Security header validation
+**Prerequisites**: Node.js 18+
 
 ```bash
-# Run all tests
-npm run test
+# Clone the repository
+git clone https://github.com/unisone/jobtrack-portfolio.git
 
-# Run tests in UI mode
-npx playwright test --ui
+# Navigate to project root
+cd jobtrack-portfolio
+
+# Install dependencies (pnpm recommended)
+pnpm install
+# or
+npm install
+
+# Start the development server
+pnpm dev
 ```
 
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+<br />
 
----
+## Let's Connect
 
-## Deployment
+<div align="center">
+  <p>Open to opportunities in Frontend Engineering and Design Systems.</p>
 
-Deploy on **Vercel** with automatic deployments from the main branch.
+  <a href="https://www.linkedin.com/in/unisone/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/unisone">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X/Twitter" />
+  </a>
+  <a href="https://jobtrack-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Active-success?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
 
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## License
-
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
----
-
-## Acknowledgments
-
-- [shadcn/ui](https://ui.shadcn.com/) — Beautiful component library
-- [Vercel](https://vercel.com) — Hosting and deployment
-- [Supabase](https://supabase.com) — Backend infrastructure
-- [Skill Icons](https://skillicons.dev) — Tech stack icons
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+  <br /> <br />
+  
+  <a href="mailto:contact@example.com">
+    <img src="https://img.shields.io/badge/Recruiters-Get_in_Touch-important?style=for-the-badge&logo=maildotru&logoColor=white" alt="Get in Touch" />
+  </a>
+</div>
