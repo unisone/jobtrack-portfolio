@@ -1,17 +1,19 @@
 <div align="center">
   <br />
+  <br />
     <a href="https://github.com/unisone/jobtrack-portfolio" target="_blank">
-      <img src="https://img.shields.io/badge/Project-Job_Track_Portfolio-black?style=for-the-badge&logo=appveyor" alt="Project Badge">
+      <img src="https://img.shields.io/badge/Job_Hunt_Tracker-2.0-blueviolet?style=for-the-badge" alt="Project Badge">
     </a>
   <br />
 
   <h1 align="center">JobTrack Portfolio</h1>
 
   <div align="center">
-    <img src="https://img.shields.io/badge/build-passing-success?style=for-the-badge&logo=github-actions" alt="Build Status" />
-    <img src="https://img.shields.io/badge/version-0.1.0-blue?style=for-the-badge&logo=semver" alt="Version" />
-    <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge&logo=opensourceinitiative" alt="License" />
-    <img src="https://img.shields.io/badge/deployment-vercel-black?style=for-the-badge&logo=vercel" alt="Deployment" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/AI_Agent-Antigravity-6D28D9?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Antigravity" />
   </div>
 
   <br />
@@ -48,10 +50,10 @@ Moving beyond basic opacity, our **Glassmorphism 2.0** engine acts as a dynamic 
 
 <div align="center">
 
-| Core Frameworks | Styling & Motion | State & Architecture |
-|:---:|:---:|:---:|
-| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) |
-| ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) | ![Zustand](https://img.shields.io/badge/Zustand-orange?style=for-the-badge&logo=react) |
+| Core Framework | Database & Auth | Styling & Motion | UX Components |
+|:---:|:---:|:---:|:---:|
+| ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | ![Radix UI](https://img.shields.io/badge/Radix_UI-161618?style=for-the-badge&logo=radix-ui&logoColor=white) |
+| ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) | ![Lucide](https://img.shields.io/badge/Lucide-black?style=for-the-badge&logo=lucide&logoColor=white) |
 
 </div>
 
