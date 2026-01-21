@@ -13,7 +13,6 @@
     <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
     <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/AI_Agent-Antigravity-6D28D9?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Antigravity" />
   </div>
 
   <br />
@@ -60,7 +59,6 @@ Moving beyond basic opacity, our **Glassmorphism 2.0** engine acts as a dynamic 
 ### Core Pillars
 *   **⚡ Performance**: 60fps+ rendering through heavy composite layer isolation and hardware-accelerated transforms.
 *   **🎨 Design Systems**: A strict 8pt fluid grid system adhering to Golden Ratio constraints for visual harmony.
-*   **🤖 Agentic AI Integration**: Engineered with advanced AI agents for high-fidelity architectural review and code generation.
 
 <br />
 
