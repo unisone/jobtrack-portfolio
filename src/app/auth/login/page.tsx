@@ -80,6 +80,27 @@ function LoginPageContent() {
     }
   };
 
+  const handleGuestLogin = async () => {
+    setLoading(true);
+    setError(null);
+
+    // DEMO CREDENTIALS
+    // Note: User should create this account in Supabase
+    const demoEmail = 'demo@example.com';
+    const demoPassword = 'demo-password-123';
+
+    const { error: signInError } = await signIn(demoEmail, demoPassword);
+
+    if (signInError) {
+      setError('Demo account not found. Please ensure demo@example.com / demo-password-123 exists in Supabase.');
+      setLoading(false);
+      return;
+    }
+
+    toast.success('Signed in with Demo Account');
+    router.push(redirectTo);
+  };
+
   return (
     <div className="flex min-h-screen items-center justify-center bg-background p-4">
       <Card className="w-full max-w-md">
@@ -180,6 +201,25 @@ function LoginPageContent() {
 
             <Button type="submit" className="w-full" disabled={loading}>
               {loading ? 'Signing in...' : 'Sign in'}
+            </Button>
+
+            <div className="relative">
+              <div className="absolute inset-0 flex items-center">
+                <Separator className="w-full" />
+              </div>
+              <div className="relative flex justify-center text-xs uppercase">
+                <span className="bg-card px-2 text-muted-foreground">Recruiter Access</span>
+              </div>
+            </div>
+
+            <Button
+              type="button"
+              variant="outline"
+              className="w-full border-primary/50 hover:bg-primary/5"
+              onClick={handleGuestLogin}
+              disabled={loading}
+            >
+              Sign in as Guest (Demo)
             </Button>
           </form>
         </CardContent>
